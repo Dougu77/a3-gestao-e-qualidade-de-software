@@ -1,8 +1,8 @@
-package com.tests.cenarioUm;
+package com.tests;
 
 import java.time.LocalDateTime;
 
-public class testes {
+public class cenarioUm {
 
     // E2. CRUD - Perfil de Usuário
 

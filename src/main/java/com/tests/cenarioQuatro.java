@@ -1,8 +1,8 @@
-package com.tests.cenarioQuatro;
+package com.tests;
 
 import java.time.LocalDateTime;
 
-public class testes {
+public class cenarioQuatro {
     
     // E5. CRUD - Público
 

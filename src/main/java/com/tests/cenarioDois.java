@@ -1,8 +1,8 @@
-package com.tests.cenarioDois;
+package com.tests;
 
 import java.time.LocalDateTime;
 
-public class testes {
+public class cenarioDois {
     
     // E3. CRUD - Usuário
 

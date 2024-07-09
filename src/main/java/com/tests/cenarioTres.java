@@ -1,8 +1,8 @@
-package com.tests.cenarioTres;
+package com.tests;
 
 import java.time.LocalDateTime;
 
-public class testes {
+public class cenarioTres {
     
     // E4. CRUD - Forma de atendimento
 
