@@ -2,7 +2,7 @@ package com.tests;
 
 import java.time.LocalDateTime;
 
-public class cenarioTres {
+public class FormaDeAtendimento {
     
     // E4. CRUD - Forma de atendimento
 

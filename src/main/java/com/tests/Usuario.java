@@ -2,7 +2,7 @@ package com.tests;
 
 import java.time.LocalDateTime;
 
-public class cenarioDois {
+public class Usuario {
     
     // E3. CRUD - Usuário
 

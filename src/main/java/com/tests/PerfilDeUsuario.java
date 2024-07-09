@@ -2,7 +2,7 @@ package com.tests;
 
 import java.time.LocalDateTime;
 
-public class cenarioUm {
+public class PerfilDeUsuario {
 
     // E2. CRUD - Perfil de Usuário
 

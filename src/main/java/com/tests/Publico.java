@@ -2,7 +2,7 @@ package com.tests;
 
 import java.time.LocalDateTime;
 
-public class cenarioQuatro {
+public class Publico {
     
     // E5. CRUD - Público
 
