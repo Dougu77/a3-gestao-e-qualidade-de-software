@@ -10,8 +10,7 @@ public class cenarioTres {
 
     @Test
     public void testCreateFormaAtendimento() {
-        FormaAtendimentoRepository formaAtendimentoRepository = new
-        FormaAtendimentoRepositoryImpl();
+        FormaAtendimentoRepository formaAtendimentoRepository = new FormaAtendimentoRepositoryImpl();
         FormaAtendimento formaAtendimento = new FormaAtendimento();
         formaAtendimento.setIdFormAtendimento(1);
         formaAtendimento.setIdUsuario(1);
@@ -19,11 +18,9 @@ public class cenarioTres {
         formaAtendimento.setDataCadastro(LocalDateTime.now());
         formaAtendimento.setAtivo('S');
         formaAtendimentoRepository.createFormaAtendimento(formaAtendimento);
-        FormaAtendimento createdFormaAtendimento =
-        formaAtendimentoRepository.readFormaAtendimento(1);
+        FormaAtendimento createdFormaAtendimento = formaAtendimentoRepository.readFormaAtendimento(1);
         assertNotNull(createdFormaAtendimento);
-        assertEquals("Atendimento Online",
-        createdFormaAtendimento.getNomeAtendimento());
+        assertEquals("Atendimento Online", createdFormaAtendimento.getNomeAtendimento());
     }
 
     // Teste de Leitura (Read)
@@ -38,8 +35,7 @@ public class cenarioTres {
         formaAtendimento.setDataCadastro(LocalDateTime.now());
         formaAtendimento.setAtivo('S');
         formaAtendimentoRepository.createFormaAtendimento(formaAtendimento);
-        FormaAtendimento readFormaAtendimento =
-        formaAtendimentoRepository.readFormaAtendimento(1);
+        FormaAtendimento readFormaAtendimento = formaAtendimentoRepository.readFormaAtendimento(1);
         assertNotNull(readFormaAtendimento);
         assertEquals("Atendimento Online", readFormaAtendimento.getNomeAtendimento());
     }
@@ -58,10 +54,8 @@ public class cenarioTres {
         formaAtendimentoRepository.createFormaAtendimento(formaAtendimento);
         formaAtendimento.setNomeAtendimento("Atendimento Presencial");
         formaAtendimentoRepository.updateFormaAtendimento(formaAtendimento);
-        FormaAtendimento updatedFormaAtendimento =
-        formaAtendimentoRepository.readFormaAtendimento(1);
-        assertEquals("Atendimento Presencial",
-        updatedFormaAtendimento.getNomeAtendimento());
+        FormaAtendimento updatedFormaAtendimento = formaAtendimentoRepository.readFormaAtendimento(1);
+        assertEquals("Atendimento Presencial", updatedFormaAtendimento.getNomeAtendimento());
     }
 
     // Teste de Exclusão (Delete)
@@ -77,8 +71,7 @@ public class cenarioTres {
         formaAtendimento.setAtivo('S');
         formaAtendimentoRepository.createFormaAtendimento(formaAtendimento);
         formaAtendimentoRepository.deleteFormaAtendimento(1);
-        FormaAtendimento deletedFormaAtendimento =
-        formaAtendimentoRepository.readFormaAtendimento(1);
+        FormaAtendimento deletedFormaAtendimento = formaAtendimentoRepository.readFormaAtendimento(1);
         assertNull(deletedFormaAtendimento);
     }
 }
