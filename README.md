@@ -26,6 +26,8 @@
 - [Caso 3: Update](#caso-3-update-3)
 - [Caso 4: Delete](#caso-4-delete-3)
 
+[Grupo](#grupo)
+
 ## Cenário 1: Perfil de Usuário
 
 - **Objetivo:** Testar o CRUD dos Perfis dos Usuários.
@@ -321,3 +323,9 @@
 | Enviar o público criado para o sistema | Público criado com sucesso |
 | Deletar o público do sistema | Público deletado com sucesso |
 | Verificar se o público foi deletado | Público lido não existir |
+
+## Grupo
+
+- Douglas Cardoso Utz
+- Leonardo Nogueira Rosa
+- Luiz Henrique Marques Moraes
