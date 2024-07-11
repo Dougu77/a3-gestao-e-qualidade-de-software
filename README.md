@@ -14,6 +14,18 @@
 - [Caso 3: Update](#caso-3-update-1)
 - [Caso 4: Delete](#caso-4-delete-1)
 
+[Cenário 3: Forma de atendimento](#cen%C3%A1rio-3-forma-de-atendimento)
+- [Caso 1: Create](#caso-1-create-2)
+- [Caso 2: Read](#caso-2-read-2)
+- [Caso 3: Update](#caso-3-update-2)
+- [Caso 4: Delete](#caso-4-delete-2)
+
+[Cenário 4: Público](#cen%C3%A1rio-4-p%C3%BAblico)
+- [Caso 1: Create](#caso-1-create-3)
+- [Caso 2: Read](#caso-2-read-3)
+- [Caso 3: Update](#caso-3-update-3)
+- [Caso 4: Delete](#caso-4-delete-3)
+
 ## Cenário 1: Perfil de Usuário
 
 - **Objetivo:** Testar o CRUD dos Perfis dos Usuários.
@@ -210,3 +222,102 @@
 - **Descrição:** Testa a atualização de uma forma de atendimento.
 - **Condição de aceite:** Ter uma forma de atendimento atualizada com sucesso.
 
+| Ação | Resultado esperado |
+| :---: | :---: |
+| Setar o ID da forma de atendimento | ID da forma de atendimento preenchido com "1" |
+| Setar o ID do usuário | ID do usuário preenchido com "1" |
+| Setar o nome da forma de atendimento | Nome da forma de atendimento preenchido com "Atendimento Online" |
+| Setar a data de cadastro | Data de cadastro preenchida com a hora que o teste ocorre |
+| Setar o status de ativação | Status da ativo preenchido com "S" |
+| Enviar a forma de atendimento criada para o sistema | Forma de atendimento criada com sucesso |
+| Setar um novo nome para a forma de atendimento | Nome da forma de atendimento preenchido com "Atendimento Presencial" |
+| Enviar a atualização para o sistema | Forma de atendimento atualizada com sucesso |
+| Verificar se a forma de atendimento foi atualizada | Forma de atendimento lida ter o mesmo nome da forma de atendimento que a forma de atendimento recém atualizada |
+
+### Caso 4: Delete
+
+- **ID:** 12
+- **Descrição:** Testa a remoção de uma forma de atendimento.
+- **Condição de aceite:** Ter uma forma de atendimento deletada com sucesso.
+
+| Ação | Resultado esperado |
+| :---: | :---: |
+| Setar o ID da forma de atendimento | ID da forma de atendimento preenchido com "1" |
+| Setar o ID do usuário | ID do usuário preenchido com "1" |
+| Setar o nome da forma de atendimento | Nome da forma de atendimento preenchido com "Atendimento Online" |
+| Setar a data de cadastro | Data de cadastro preenchida com a hora que o teste ocorre |
+| Setar o status de ativação | Status da ativo preenchido com "S" |
+| Enviar a forma de atendimento criada para o sistema | Forma de atendimento criada com sucesso |
+| Deletar a forma de atendimento do sistema | Forma de atendimento deletada com sucesso |
+| Verificar se a forma de atendimento foi deletada | Forma de atendimento lida não existir |
+
+## Cenário 4: Público
+
+- **Objetivo:** Testar o CRUD do público.
+
+### Caso 1: Create
+
+- **ID:** 13
+- **Descrição:** Testa a crição de um público.
+- **Condição de aceite:** Ter um público criado com sucesso.
+
+| Ação | Resultado esperado |
+| :---: | :---: |
+| Setar o ID do público | ID do público preenchido com "1" |
+| Setar o ID do usuário | ID do usuário preenchido com "1" |
+| Setar o nome do público | Nome do público preenchido com "Público A" |
+| Setar a data de cadastro | Data de cadastro preenchida com a hora que o teste ocorre |
+| Setar o status de ativação | Status da ativo preenchido com "S" |
+| Enviar o público criado para o sistema | Público criado com sucesso |
+| Verificar se o público foi criado | Público lido ter o mesmo nome do público que o público recém criado |
+
+### Caso 2: Read
+
+- **ID:** 14
+- **Descrição:** Testa a leitura de um público.
+- **Condição de aceite:** Ter um público lido com sucesso.
+
+| Ação | Resultado esperado |
+| :---: | :---: |
+| Setar o ID do público | ID do público preenchido com "1" |
+| Setar o ID do usuário | ID do usuário preenchido com "1" |
+| Setar o nome do público | Nome do público preenchido com "Público A" |
+| Setar a data de cadastro | Data de cadastro preenchida com a hora que o teste ocorre |
+| Setar o status de ativação | Status da ativo preenchido com "S" |
+| Enviar o público criado para o sistema | Público criado com sucesso |
+| Verificar se o público foi criado | Público lido ter o mesmo nome do público que o público recém criado |
+
+### Caso 3: Update
+
+- **ID:** 15
+- **Descrição:** Testa a atualização de um público.
+- **Condição de aceite:** Ter um público atualizado com sucesso.
+
+| Ação | Resultado esperado |
+| :---: | :---: |
+| Setar o ID do público | ID do público preenchido com "1" |
+| Setar o ID do usuário | ID do usuário preenchido com "1" |
+| Setar o nome do público | Nome do público preenchido com "Público A" |
+| Setar a data de cadastro | Data de cadastro preenchida com a hora que o teste ocorre |
+| Setar o status de ativação | Status da ativo preenchido com "S" |
+| Enviar o público criado para o sistema | Público criado com sucesso |
+| Setar um novo nome do público | Nome do público preenchido com "Público B" |
+| Enviar a atualização para o sistema | Forma de atendimento atualizada com sucesso |
+| Verificar se o público foi criado | Público lido ter o mesmo nome do público que o público recém atualizado |
+
+### Caso 4: Delete
+
+- **ID:** 16
+- **Descrição:** Testa a remoção de um público.
+- **Condição de aceite:** Ter um público deletado com sucesso.
+
+| Ação | Resultado esperado |
+| :---: | :---: |
+| Setar o ID do público | ID do público preenchido com "1" |
+| Setar o ID do usuário | ID do usuário preenchido com "1" |
+| Setar o nome do público | Nome do público preenchido com "Público A" |
+| Setar a data de cadastro | Data de cadastro preenchida com a hora que o teste ocorre |
+| Setar o status de ativação | Status da ativo preenchido com "S" |
+| Enviar o público criado para o sistema | Público criado com sucesso |
+| Deletar o público do sistema | Público deletado com sucesso |
+| Verificar se o público foi deletado | Público lido não existir |
