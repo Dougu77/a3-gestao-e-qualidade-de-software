@@ -7,11 +7,12 @@
 - [Caso 2: Read](#caso-2-read)
 - [Caso 3: Update](#caso-3-update)
 - [Caso 4: Delete](#caso-4-delete)
+
 [Cenário 2: Usuário](#cen%C3%A1rio-2-usu%C3%A1rio)
-- [Caso 1: Create](#caso-1-create1)
-- [Caso 2: Read](#caso-2-read1)
-- [Caso 3: Update](#caso-3-update1)
-- [Caso 4: Delete](#caso-4-delete1)
+- [Caso 1: Create](#caso-1-create-1)
+- [Caso 2: Read](#caso-2-read-1)
+- [Caso 3: Update](#caso-3-update-1)
+- [Caso 4: Delete](#caso-4-delete-1)
 
 ## Cenário 1: Perfil de Usuário
 
